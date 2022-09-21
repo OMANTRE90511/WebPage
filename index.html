@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>OMANTRE Desarrollo Web</title>
+</head>
+<body>
+    <!--SECCIÓN INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>OMANTRE</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MÍ</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--ICONOS DEL MENÚ RESPONSIVE-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="bi bi-bar-chart-steps"></i>
+                    </div>
+
+                    <!--ICONOS DE LAS REDES SOCIALES-->
+                    <div class="redes">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidxs</p>
+                <h2>Soy <span>OMAR ANGELES TREJO!</span> Desarrollador Web</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ducimus rerum! Maiores expedita quisquam quia nam! Veniam explicabo, reprehenderit possimus labore nemo consequatur hic exercitationem minus omnis quam, commodi rerum!</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+
+                <img src="/image/img1.png" alt="">
+            </div>          
+        </div>       
+    </section>
+
+    <!--SECCIÓN SOBRE MÍ-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./image/img2.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mí</p>
+            <h2>Hola soy <span>OMAR ANGELES TREJO</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum iure laboriosam aut temporibus placeat ea! Fugiat deserunt accusantium, dicta asperiores vel excepturi, nihil nostrum quod maxime est corrupti. Harum, culpa.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, obcaecati, impedit, incidunt totam sit et quaerat nam natus tenetur animi eum nostrum commodi? Molestias, nemo facilis repellat culpa itaque architecto.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!--SECCIÓN SERVICIOS-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque itaque ea veritatis facere debitis totam quasi perferendis vel incidunt id dolorem illo, nisi cupiditate iure voluptatem doloribus voluptatum rem!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque itaque ea veritatis facere debitis totam quasi perferendis vel incidunt id dolorem illo, nisi cupiditate iure voluptatem doloribus voluptatum rem!</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque itaque ea veritatis facere debitis totam quasi perferendis vel incidunt id dolorem illo, nisi cupiditate iure voluptatem doloribus voluptatum rem!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque itaque ea veritatis facere debitis totam quasi perferendis vel incidunt id dolorem illo, nisi cupiditate iure voluptatem doloribus voluptatum rem!</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque itaque ea veritatis facere debitis totam quasi perferendis vel incidunt id dolorem illo, nisi cupiditate iure voluptatem doloribus voluptatum rem!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="bi bi-code-slash"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque itaque ea veritatis facere debitis totam quasi perferendis vel incidunt id dolorem illo, nisi cupiditate iure voluptatem doloribus voluptatum rem!</p>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN HABILIDADES-->
+    <div class="contenedor-skills" id="skills">
+        <h3>Habilidades</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class=""></div>
+            </div>
+        </div>
+    </div>
+
+<!--SECCIÓN PORTAFOLIO-->
+<section id="portafolio">
+    <h3 class="titulo-seccion">Mis Proyectos</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img3.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img4.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img5.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img6.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img7.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img8.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img9.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img10.png" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="/image/img11.jpg" alt="">
+            <div class="info">
+                <h4>Descripción del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SECCIÓN CONTACTO-->
+<section id="contacto">
+    <h3 class="titulo-seccion">Contáctame</h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                <input type="text" placeholder="Dirección de Email" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema..." class="input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</section>
+
+<!--SECCIÓN FOOTER-->
+<footer>
+    <p>Todos los Derechos Reservados - 2022</p>
+    <div class="redes">
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-whatsapp"></i></a>
+    </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
